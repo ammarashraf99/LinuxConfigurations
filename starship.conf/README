@@ -1,0 +1,5 @@
+add the starship.toml to .conf directory in home
+
+Add the following two lines to .bashrc
+#starship
+eval "$(starship init bash)"

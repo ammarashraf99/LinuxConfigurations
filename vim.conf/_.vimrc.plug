@@ -1,0 +1,11 @@
+call plug#begin('~/.vim/plugged')
+
+Plug 'tpope/vim-fugitive'
+Plug 'preservim/nerdtree'
+Plug 'farmergreg/vim-lastplace'
+Plug 'vimwiki/vimwiki'
+Plug 'jiangmiao/auto-pairs'
+"Plug 'puremourning/vimspector'
+Plug 'junegunn/fzf'
+
+call plug#end()

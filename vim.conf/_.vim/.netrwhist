@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/home/ammar/.vim'
+let g:netrw_dirhist_9='/usr/lib/systemd/user/sockets.target.wants'
+let g:netrw_dirhist_8='/usr/lib/systemd/user/vte-spawn-.scope.d'
+let g:netrw_dirhist_7='/etc/systemd/system/rescue.target.wants'
+let g:netrw_dirhist_6='/etc/systemd/system/sysinit.target.wants'
+let g:netrw_dirhist_5='/etc/systemd/system/rescue.target.wants'
+let g:netrw_dirhist_4='/etc/systemd/system/systemd-suspend.service.wants'
+let g:netrw_dirhist_3='/etc/systemd/system/timers.target.wants'
+let g:netrw_dirhist_2='/home/ammar/.vim'
+let g:netrw_dirhist_1='/usr/share/vim/vimfiles/indent'
