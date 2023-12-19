@@ -80,6 +80,8 @@ set wildmode=longest,list,full
 
 
 
+" this makes the Alt key equal to M
+"execute "set <M-d>=\ed"
 
 
 " Shortcutting split navigation
@@ -94,7 +96,6 @@ nnoremap <leader>v :vsplit<Space>
 
 " Terminal shortcut
 nnoremap <leader><cr> :terminal<cr>
-"nnoremap <C-K> termwinkey
 
 
 " NERDTree map
