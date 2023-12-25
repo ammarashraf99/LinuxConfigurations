@@ -47,6 +47,14 @@ set backupdir=/tmp/vim.backup
 set directory=~/.vim/tmp,.
 set backup
 
+" stop auto commenting
+set formatoptions-=cro
+
+"persistant undo between opening and closing files
+set undofile
+
+
+
 
 
 map <F2> :bprev<CR>
