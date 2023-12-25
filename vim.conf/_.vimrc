@@ -42,6 +42,11 @@ autocmd BufWritePre * %s/\s\+$//e
 set timeout         " time out for key codes
 set timeoutlen=200  " wait up to 100ms after Esc for special key
 
+"backup settings
+set backupdir=/tmp/vim.backup
+set directory=~/.vim/tmp,.
+set backup
+
 
 
 map <F2> :bprev<CR>
