@@ -46,6 +46,7 @@ set timeoutlen=200  " wait up to 100ms after Esc for special key
 
 map <F2> :bprev<CR>
 map <F3> :bnext<CR>
+"here you can source vimrc using F5
 map <F5> :source ~/.vimrc<CR>
 
 
@@ -55,8 +56,13 @@ map <F5> :source ~/.vimrc<CR>
 " and then hit the keybinding and write the replacment
 nnoremap <Leader>s :%s/\<<C-r><C-w>\>//g<Left><Left>
 
-" Adjusting [increase] the border of the split you are on
-nnoremap <leader>L :vertical resize +5<cr>
+" Adjusting vim windows sizes
+nnoremap <Up>	:resize +2<CR>
+nnoremap <Down>	:resize -2<CR>
+nnoremap <Left> :vertical resize +2<CR>
+nnoremap <Right> :vertical resize -2<CR>
+
+
 
 " column set to column 100
 set colorcolumn=100
@@ -124,31 +130,6 @@ let wiki_1.path = '~/Documents/notes/'
 let wiki_2 = {}
 let wiki_2.path = '~/Documents/notes/'
 let g:vimwiki_list = [wiki_1, wiki_2]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

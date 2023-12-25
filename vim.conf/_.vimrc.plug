@@ -1,5 +1,6 @@
 call plug#begin('~/.vim/plugged')
-
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'tpope/vim-fugitive'
 Plug 'preservim/nerdtree'
 Plug 'farmergreg/vim-lastplace'
@@ -7,5 +8,7 @@ Plug 'vimwiki/vimwiki'
 Plug 'jiangmiao/auto-pairs'
 "Plug 'puremourning/vimspector'
 Plug 'junegunn/fzf'
+
+Plug 'morhetz/gruvbox'
 
 call plug#end()
