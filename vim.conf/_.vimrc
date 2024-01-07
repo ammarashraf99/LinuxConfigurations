@@ -5,6 +5,31 @@ if filereadable(expand("~/.vimrc.plug"))
 endif
 
 
+
+map <Esc>j <M-j>
+map <Esc>h <M-h>
+map <Esc>l <M-l>
+map <Esc>k <M-k>
+
+
+
+
+" This following config is for the plugin better-vim-tmux-resizer
+" \e equals alt
+let g:tmux_resizer_no_mappings = 1
+let g:tmux_resizer_resize_count = 3
+let g:tmux_resizer_vertical_resize_count = 3
+nnoremap <silent> <M-h> :TmuxResizeLeft<CR>
+nnoremap <silent> <M-j> :TmuxResizeDown<CR>
+nnoremap <silent> <M-k> :TmuxResizeUp<CR>
+nnoremap <silent> <M-l> :TmuxResizeRight<CR>
+
+
+
+
+
+
+
 " stop auto commenting
 set formatoptions-=r formatoptions-=c formatoptions-=o
 
@@ -93,11 +118,6 @@ map <F5> :source ~/.vimrc<CR>
 " and then hit the keybinding and write the replacment
 nnoremap <Leader>s :%s/\<<C-r><C-w>\>//g<Left><Left>
 
-" Adjusting vim windows sizes
-nnoremap <Up>	:resize +2<CR>
-nnoremap <Down>	:resize -2<CR>
-nnoremap <Left> :vertical resize +2<CR>
-nnoremap <Right> :vertical resize -2<CR>
 
 
 

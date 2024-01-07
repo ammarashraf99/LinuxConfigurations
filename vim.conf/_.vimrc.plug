@@ -16,6 +16,7 @@ Plug 'christoomey/vim-tmux-navigator'
 
 Plug 'morhetz/gruvbox'
 
+Plug 'RyanMillerC/better-vim-tmux-resizer'
 
 " Vim-monokai-tasty color theme
 Plug 'patstockwell/vim-monokai-tasty'
