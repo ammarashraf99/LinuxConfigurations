@@ -2,7 +2,16 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
 # Inserts a blank line between shell prompts
-add_newline = true
+add_newline = false
+
+# Make prompt a single line instead of two lines
+[line_break]
+disabled = true
+
+format = '$all$directory$character'
+#format = '\[\$\]'
+
+
 
 # Disable the package module, hiding it from the prompt completely
 [package]
@@ -14,3 +23,6 @@ truncation_length = 1
 
 [c]
 disabled = true
+
+
+
