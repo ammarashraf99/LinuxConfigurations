@@ -91,8 +91,9 @@
 
 ;;(set-background-color "SlateGrey")
 (load-theme 'nord t)
-;;flatland gruber-darker zenburn gruvbox-dark-medium  subdued  twilight
+;;flatland gruber-darker zenburn gruvbox-dark-medium  subdued  twilight 
 ;; mustang
+
 
 
 ;; Inixialize package sources
@@ -514,10 +515,9 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 
-
-
-
-
+;;(global-set-key (kbd "C-=") 'text-scale-increase)
+(global-set-key (kbd "C-<tab>") 'completion-at-point)  ;; fricken gooooood (life saver)
+(setq lsp-completion-provider :none) ;; make sure this shit is none
 
 ;; chick https://emacs-lsp.github.io/lsp-mode/tutorials/how-to-turn-off/
 (setq lsp-keymap-prefix "C-c l")
@@ -529,7 +529,6 @@
 
 (setq lsp-enable-symbol-highlighting nil)
 
-(setq lsp-completion-provider :company)
 (setq lsp-completion-show-detail nil)
 (setq lsp-completion-show-kind nil)
 (setq lsp-enable-links nil)
