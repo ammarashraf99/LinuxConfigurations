@@ -91,9 +91,8 @@
 
 ;;(set-background-color "SlateGrey")
 (load-theme 'nord t)
-;;flatland gruber-darker zenburn gruvbox-dark-medium  subdued  twilight 
+;;flatland gruber-darker zenburn gruvbox-dark-medium  subdued  twilight
 ;; mustang
-
 
 
 ;; Inixialize package sources
